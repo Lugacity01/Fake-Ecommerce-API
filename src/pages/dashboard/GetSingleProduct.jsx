@@ -12,7 +12,7 @@ import { toast } from "react-toastify";
 import Modal from "../Auth/components/Modal";
 import { Fake_Store_url } from "../../services/api";
 import axios from "axios";
-import { useGetData } from "../Auth/components/UseGetData";
+import { useGetData } from "../Auth/components/GetData";
 
 const GetSingleProduct = () => {
   const [product, setProduct] = useState(null);

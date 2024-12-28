@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import CategoryFilter from "../Auth/components/CategoryFilter";
-import { useGetData } from "../Auth/components/UseGetData";
+import { useGetData } from "../Auth/components/GetData";
 
 
 const Product = () => {

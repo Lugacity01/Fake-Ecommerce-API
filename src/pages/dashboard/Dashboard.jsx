@@ -3,7 +3,7 @@ import useAuth from "../../hooks/useAuth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBox, faMale, faGem, faTv } from "@fortawesome/free-solid-svg-icons";
 import { Fake_Store_url } from "../../services/api";
-import { useGetData } from "../Auth/components/UseGetData";
+import { useGetData } from "../Auth/components/GetData";
 
 const Dashboard = () => {
   const { userDetails } = useAuth();
