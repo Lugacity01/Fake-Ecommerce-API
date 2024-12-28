@@ -5,6 +5,8 @@ import "react-toastify/dist/ReactToastify.css"; // Import toast styles
 import { loginFakeStore } from "../../services/api"; // Import your API function
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import fakeLogo from '../../assets/images/icons/fakeLogo.png'
+
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -74,9 +76,9 @@ const Login = () => {
       <div className="w-full max-w-sm rounded-lg bg-white p-6 shadow-md">
         <div className="mb-6 text-center">
           <img
-            src="https://via.placeholder.com/50"
+            src={fakeLogo}
             alt="Logo"
-            className="mx-auto mb-4"
+            className="mx-auto w-10 mb-4"
           />
           <h1 className="text-2xl font-bold text-gray-800">Welcome</h1>
           <p className="text-sm text-gray-500">Sign in to continue</p>
