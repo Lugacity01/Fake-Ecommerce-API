@@ -4,7 +4,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import Login from "./pages/Auth/Login";
-import Dashboard from "./pages/dashboard/dashboard";
+// import Dashboard from "./pages/dashboard/dashboard";
 import PrivateRoute from "./components/PrivateRoute";
 import Product from "./pages/dashboard/Product";
 import NotFound from "./pages/NotFound";
@@ -13,6 +13,7 @@ import GetSingleProduct from "./pages/dashboard/GetSingleProduct";
 import AddNewProduct from "./pages/dashboard/AddNewProduct";
 import Cart from "./pages/dashboard/Cart";
 import Settings from "./pages/dashboard/Settings";
+import Dashboard from "./pages/dashboard/Dashboard";
 
 
 
