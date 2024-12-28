@@ -10,9 +10,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { toast } from "react-toastify";
 import Modal from "../Auth/components/Modal";
-import { useGetData } from "../Auth/components/UseGetData";
 import { Fake_Store_url } from "../../services/api";
 import axios from "axios";
+import { useGetData } from "../Auth/components/UseGetData";
 
 const GetSingleProduct = () => {
   const [product, setProduct] = useState(null);
