@@ -45,10 +45,10 @@ const Dashboard = () => {
 
   // Mock data for product counts
   const [productCounts, setProductCounts] = useState({
-    totalProducts: 1200,
-    totalMens: 450,
-    totalJewelry: 150,
-    totalElectronics: 600,
+    // totalProducts: 1200,
+    totalMens: 0,
+    totalJewelry: 0,
+    totalElectronics: 0,
   });
 
   return (
@@ -80,7 +80,7 @@ const Dashboard = () => {
             icon={faBox}
             className="text-4xl text-[#116A7B] mb-4"
           />
-          <h3 className="text-xl font-semibold text-[#116A7B]">Total Products</h3>
+          <h3 className="lg:text-xl font-semibold text-[#116A7B]">Total Products</h3>
           <p className="mt-2 text-2xl font-bold">{posts.length}</p>
         </div>
 
@@ -90,7 +90,7 @@ const Dashboard = () => {
             icon={faMale}
             className="text-4xl text-[#116A7B] mb-4"
           />
-          <h3 className="text-xl font-semibold text-[#116A7B]">Total Men's Products</h3>
+          <h3 className="lg:text-xl font-semibold text-[#116A7B]">Total Men's Products</h3>
           <p className="mt-2 text-2xl font-bold">{productCounts.totalMens}</p>
         </div>
 
@@ -100,7 +100,7 @@ const Dashboard = () => {
             icon={faGem}
             className="text-4xl text-[#116A7B] mb-4"
           />
-          <h3 className="text-xl font-semibold text-[#116A7B]">Total Jewelry Products</h3>
+          <h3 className="lg:text-xl font-semibold text-[#116A7B]">Total Jewelry Products</h3>
           <p className="mt-2 text-2xl font-bold">{productCounts.totalJewelry}</p>
         </div>
 
@@ -110,7 +110,7 @@ const Dashboard = () => {
             icon={faTv}
             className="text-4xl text-[#116A7B] mb-4"
           />
-          <h3 className="text-xl font-semibold text-[#116A7B]">Total Electronics Products</h3>
+          <h3 className="lg:text-xl font-semibold text-[#116A7B]">Total Electronics Products</h3>
           <p className="mt-2 text-2xl font-bold">{productCounts.totalElectronics}</p>
         </div>
       </div>

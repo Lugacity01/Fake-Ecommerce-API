@@ -29,7 +29,7 @@ const Sidebar = () => {
   return (
     <div
       className={`sticky top-0 h-screen ${
-        isExpanded ? "w-64 " : "w-20"
+        isExpanded ? "w-64 bg-[#8fbdbd]" : "w-20"
       } flex flex-col bg-[#E3F4F4] p-6 text-[#116A7B] transition-all duration-300`}
     >
       {/* Toggle Button */}
