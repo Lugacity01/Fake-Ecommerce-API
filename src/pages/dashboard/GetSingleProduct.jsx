@@ -53,7 +53,7 @@ const GetSingleProduct = () => {
   //     }
   //   }
 
-  //   fetchSingleProduct();
+  //   fetchSingleProduct()
   // }, [id]);
 
   const handleDelete = async (id) => {
