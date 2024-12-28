@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBox, faMale, faGem, faTv } from "@fortawesome/free-solid-svg-icons";
-import { useGetData } from "../Auth/components/UseGetData";
 import { Fake_Store_url } from "../../services/api";
+import { useGetData } from "../Auth/components/UseGetData";
 
 const Dashboard = () => {
   const { userDetails } = useAuth();
